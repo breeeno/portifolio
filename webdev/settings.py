@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'collectfast'
     'django.contrib.staticfiles',
 ]
 
@@ -119,6 +120,8 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID', default=False)
 
+COLLECTFAST_ENABLED = False
+
 # STORAGE CONFIGURATION IN S3 AWS
 # -------------------------------------------------------
 
@@ -132,7 +135,7 @@ if AWS_ACCESS_KEY_ID:
     AWS_S3_CUSTOM_DOMAIN = None
 
     COLLECTFAST_STRATEGY = "collectfast.strategies.boto3.Boto3Strategy"
-    COLLECTFAST_ENABLED = False
+    COLLECTFAST_ENABLED = True
 
     AWS_DEFAULT_ACL = 'private'
 
