@@ -27,6 +27,11 @@ jobs:
       run: |
         pip install pipenv
         pipenv sync --dev
+
+    - name: Copiar Configurações .env
+      run: |
+        cp contrib/env-sample .env
+
     - name: Realizar tests
       run: |
         pipenv run pytest webdev
