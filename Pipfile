@@ -9,6 +9,7 @@ pytest-django = "*"
 gunicorn = "*"
 python-decouple = "*"
 django-s3-folder-storage = "*"
+collectfast = "*"
 
 [dev-packages]
 
