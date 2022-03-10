@@ -1,4 +1,4 @@
-# portifolio
+# Portifólio
 Minha página de portifólio personalizada com meus projetos 
 Projeto disponível em: https://portifolio-breno.herokuapp.com
 
