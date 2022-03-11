@@ -33,24 +33,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Minhas habilidades</a>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contatos e projetos</a>
                 </li>
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Sobre
-                    mim</a>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Minhas habilidades
+                </a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                                                     href="#contact">Contatos e projetos</a></li>
+                                                     href="#about">Sobre mim</a></li>
             </ul>
         </div>
     </div>
 </nav>
 <header class="masthead bg-primary text-white text-center">
     <div class="container d-flex align-items-center flex-column">
-        <img class="masthead-avatar mb-5" src="{% static 'assets/img/breeeno.jpg' %}" alt="..."/>
+        <img class="masthead-avatar mb-5" src="{% static 'assets/img/breno.jpg' %}" alt="..."/>
         <h1 class="masthead-heading text-uppercase mb-0">oi! meu nome é Breno</h1>
         <div class="divider-custom divider-light">
             <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
             <div class="divider-custom-line"></div>
         </div>
         <!-- Masthead Subheading-->
@@ -58,6 +57,38 @@
     </div>
 </header>
 <!-- Portfolio Section-->
+<section class="page-section" id="contact">
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Meus contatos e projetos!</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Contact Section Form-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+
+                <!-- Name input-->
+                <div class="text-left mt-4">
+                    <h4 class="text-left text-uppercase text-secondary mb-2">emails:
+                    </h4>
+                    <h5 class="text-left text-secondary mb-2"><a href="mailto:brenocastro.programador@gmail.com">brenocastro.programador@gmail.com</a> </h5>
+                    <h5 class="text-left text-secondary mb-2"><a href="mailto:brenocastro.programador@gmail.com">breno.eustaq@gmail.com</a></h5>
+                </div>
+                <br>
+                <!-- Email address input-->
+                <h4 class="text-left text-uppercase text-secondary mb-2">Meus projetos:
+                </h4>
+                <h6 class="text-left text-uppercase text-secondary mb-2"><a href="https://djangoprobreno.herokuapp.com">- Clone da antiga plataforma da PythonPro para o exercício do django, banco de dados, TDD, clean code, dentre outros.</a>
+                </h6>
+                <h6 class="text-left text-uppercase text-secondary mb-2"><a href="https://github.com/breeeno/to-do-django">- To-do feito em django para estudo do CRUD e de como usar trabalhar com os models no banco de dados.</a>
+                </h6>
+                <h6 class="text-left text-uppercase text-secondary mb-2"><a href="https://github.com/breeeno/portifolio">- Portifólio: Site feito como carta de apresentação, afim de estudar mais sobre o Django, HTML e práticar a escrita de testes.</a></h6>
+            </div>
+</section>
+<!-- About Section-->
 <section class="page-section portfolio" id="portfolio">
     <div class="container">
         <!-- Portfolio Section Heading-->
@@ -65,7 +96,6 @@
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
             <div class="divider-custom-line"></div>
         </div>
         <!-- Portfolio Grid Items-->
@@ -127,6 +157,8 @@
         </div>
     </div>
 </section>
+
+<!-- Contact Section-->
 <!-- About Section-->
 <section class="page-section bg-primary text-white mb-0" id="about">
     <div class="container">
@@ -135,19 +167,15 @@
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
             <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
             <div class="divider-custom-line"></div>
         </div>
         <!-- About Section Content-->
         <div class="row">
-            <div class="col-lg-4 ms-auto"><p class="lead">oi! Meu nome é Breno e eu sou um programador backend, com meus
-                estudos focados
-                em Python e Django, aficionado por tecnologia desde criança, no último ano descobri o quanto eu gostava
-                de estudar programação.</p></div>
-            <div class="col-lg-4 me-auto"><p class="lead">Tenho focado meus estudos no ecosistema do desenvolvimento
-                backend e suas ferramentas, tal como
-                ferramentas de entrega contínua, CI, Git e testes unitários.
-                Quer ver esse código e meus outros projetos? Dá uma olhada no github!</p></div>
+            <div class="col-lg-4 ms-auto"><p class="lead">Meu nome é Breno Eustáquio e sou um programador backend, com meus estudos focados em Python e Django, aficionado por tecnologia desde criança. Por gostar tanto da área tecnológica, no último ano decidi me dedicar ao estudo da programação,
+                a fim de me estabelecer como um profissional de referência na área.</p></div>
+            <div class="col-lg-4 me-auto"><p class="lead">Tenho focado meus estudos no ecosistema do desenvolvimento backend e suas ferramentas, tais como entrega contínua, CI, Git e testes unitários. Estou em busca de uma oportunidade de trabalho na área, seja por meio de vínculo empregatício ou por meio de freelancers.
+                Quer ver esse código e meus outros projetos? Dá uma olhada no Github!
+                </p></div>
         </div>
         <!-- About Section Button-->
         <div class="text-center mt-4">
@@ -155,43 +183,6 @@
                 Meu Github!
             </a>
         </div>
-    </div>
-</section>
-<!-- Contact Section-->
-<section class="page-section" id="contact">
-    <div class="container">
-        <!-- Contact Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Meus contatos e projetos!</h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-        </div>
-        <!-- Contact Section Form-->
-        <div class="row justify-content-center">
-            <div class="col-lg-8 col-xl-7">
-
-                <!-- Name input-->
-                <div class="text-left mt-4">
-                    <h4 class="text-left text-uppercase text-secondary mb-2">Emails:
-                    </h4>
-                    <h5 class="text-left text-uppercase text-secondary mb-2">breno.eustaq@gmail.com</h5>
-                    <h5 class="text-left text-uppercase text-secondary mb-2">bx.sptf@gmail.com</h5>
-                </div>
-                <br>
-                <!-- Email address input-->
-                <h4 class="text-left text-uppercase text-secondary mb-2">Meus projetos:
-                </h4>
-                <h6 class="text-left text-uppercase text-secondary mb-2"><a href="https://github.com/breeeno/curso_django">- Clone da antiga plataforma da PythonPro para o exercício do django, banco de dados, TDD, clean code, dentre outros.</a>
-                </h6>
-                <h6 class="text-left text-uppercase text-secondary mb-2"><a href="https://github.com/breeeno/to-do-django">- To-do feito em django para estudo do CRUD e de como usar trabalhar com os models no banco de dados.</a>
-                </h6>
-                <h6 class="text-left text-uppercase text-secondary mb-2"><a href="https://github.com/breeeno/portifolio">- Portifólio: Site feito como carta de apresentação, afim de estudar mais sobre o Django, HTML e práticar a escrita de testes.</a></h6>
-            </div>
-
-        </div>
-    </div>
     </div>
 </section>
 <!-- Footer-->
