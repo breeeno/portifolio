@@ -5,13 +5,14 @@ name = "pypi"
 
 [packages]
 django = "*"
-pytest-django = "*"
 gunicorn = "*"
 python-decouple = "*"
 django-s3-folder-storage = "*"
 collectfast = "*"
 
 [dev-packages]
+pytest-django = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.9"
